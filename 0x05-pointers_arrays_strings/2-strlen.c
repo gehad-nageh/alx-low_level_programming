@@ -5,7 +5,7 @@
  *
  * @s: string parameter input
  *
- * Return :length of string
+ * Return: length of string
  */
 
 int _strlen(char *s)
