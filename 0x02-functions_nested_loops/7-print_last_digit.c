@@ -5,7 +5,7 @@
  *
  * @n: input charachter
  *
- * Return: Always 0 (success)
+ * Return: lastdigit
  */
 
 int print_last_digit(int n)
@@ -18,5 +18,5 @@ int print_last_digit(int n)
 		lastdigit = n % 10;
 
 	_putchar(lastdigit + '0');
-	return (0);
+	return (lastdigit);
 }
