@@ -13,8 +13,8 @@ void times_table(void)
 		_putchar(48);
 		for (mult = 1; mult <= 9; mult++)
 		{
-			_putchr('.');
-			_putchr(' ');
+			_putchar('.');
+			_putchar(' ');
 
 			prod = num * mult;
 
