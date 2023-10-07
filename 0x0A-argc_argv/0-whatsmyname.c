@@ -4,7 +4,7 @@
  * main - program name
  * @argc: input int
  * @argv: inut char
- * Return: Nothing
+ * Return: 0
  */
 
 int main(int argc, char const *argv[])
