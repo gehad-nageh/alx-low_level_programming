@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < 5; i++)
 	{
-		if (budget >= c[i])i
+		if (budget >= c[i])
 		{
 			l += budget / c[i];
 			budget = budget % c[i];
