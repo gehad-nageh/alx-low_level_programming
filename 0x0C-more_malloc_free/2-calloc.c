@@ -5,7 +5,7 @@
  * @i: pointer
  * @c: constant
  * @n: max number of bytes
- * Return: Nothing
+ * Return: i
  */
 
 char *_fill(char *i, char c, unsigned int n)
