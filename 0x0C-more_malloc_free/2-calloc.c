@@ -13,7 +13,7 @@ char *_fill(char *i, char c, unsigned int n)
 	char *ptr = i;
 
 	while (n--)
-		*s++ = c;
+		*i++ = c;
 
 	return (ptr);
 }
