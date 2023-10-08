@@ -12,7 +12,7 @@ char *_fill(char *i, char c, unsigned int n)
 {
 	char *ptr = i;
 
-	while (n--);
+	while (n--)
 		*s++ = b;
 
 	return (ptr);
