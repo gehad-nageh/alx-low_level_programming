@@ -7,7 +7,7 @@
  * Return: Nothing
  */
 
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 	int i = 0, j = n;
 	va_list ap;
