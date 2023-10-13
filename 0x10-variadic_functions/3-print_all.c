@@ -47,7 +47,7 @@ void format_string(char *separator, va_list ap)
 
 /**
  * print_all - function that prints anything
- * @fornmat: the format string
+ * @format: the format string
  */
 void print_all(const char * const format, ...)
 {
