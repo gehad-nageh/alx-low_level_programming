@@ -24,7 +24,7 @@ int _strlen(char *i)
  * Return: Nothing
  */
 
-size_t print_list(const list_t *h);
+size_t print_list(const list_t *h)
 {
 	size_t j = 0;
 
