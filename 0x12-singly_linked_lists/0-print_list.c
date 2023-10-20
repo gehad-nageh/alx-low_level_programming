@@ -1,4 +1,4 @@
-#include <list.h>
+#include <lists.h>
 
 /**
  * _strlen - function to find the length of string
@@ -20,6 +20,7 @@ int _strlen(char *i)
 /**
  * print_list - function that prints all the elements of list
  * @h: pointer
+ *
  * Return: Nothing
  */
 
