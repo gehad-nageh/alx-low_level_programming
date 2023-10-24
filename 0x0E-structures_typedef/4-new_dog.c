@@ -24,7 +24,7 @@ int _strlen(const char *str)
  */
 char *_strcopy(char *d, char *s)
 {
-	int i = 0;
+	int i;
 
 	for (i = 0; s[i]; i++)
 		d[i] = s[i];
