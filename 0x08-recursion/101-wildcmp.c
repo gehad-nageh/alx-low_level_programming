@@ -35,7 +35,7 @@ int inception(char *s1, char *s2)
  * the strings can be considered identical, otherwise return 0
  * @s1: the first string
  * @s2: the second string
- * Retrun: Nothing
+ * Return: Nothing
  */
 int wildcmp(char *s1, char *s2)
 {
