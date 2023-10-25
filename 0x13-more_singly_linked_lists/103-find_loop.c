@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * find_listint_loop_fl - function that finds aloop in alinked list
+ * find_listint_loop - function that finds aloop in alinked list
  * @head: linked list to search
  * Return: Nothing
  */
-listint_t *find_listint_loop_fl(listint_t *head)
+listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *ptr, *end;
 
