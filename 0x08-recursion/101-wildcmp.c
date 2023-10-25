@@ -7,7 +7,7 @@
  */
 char *move_past_star(char *s2)
 {
-	if (*s == '*')
+	if (*s2 == '*')
 		return (move_past_star(s2 + 1));
 	else
 		return (s2);
@@ -41,7 +41,7 @@ int wildcmp(char *s1, char *s2)
 {
 	int ret = 0;
 
-	if (!*s1 && *s2 == '*' && !*move_past_start(s2))
+	if (!*s1 && *s2 == '*' && !*move_past_star(s2))
 		return (1);
 	if (*s1 == *s2)
 	{
