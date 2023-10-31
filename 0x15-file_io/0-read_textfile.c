@@ -16,11 +16,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (!filename || !letters)
 		return (0);
-	i = open(filename, o_RDONLY);
+	i = open(filename, O_RDONLY);
 	if (i == -1)
 		return (0);
 	bytes = read(i, &buf[0], letters);
-	bytes = write(STDOUT_FILEND, &buf[0], bytes);
+	bytes = write(STDOUT_FILENO, &buf[0], bytes);
 	close(i);
 	return (bytes);
 }
